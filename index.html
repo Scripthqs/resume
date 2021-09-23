@@ -7,6 +7,7 @@
   <meta name="viewport"
     content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no, viewport-fit=cover">
   <title>个人简历</title>
+  <link rel="icon" href="https://gitee.com/scripthqs/assets/raw/master/img/icon.png">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/common.css">
   <style>
@@ -34,6 +35,11 @@
     .info .contact_m {
       display: none;
     }
+
+    strong {
+      color: red
+    }
+
   </style>
 
   <style>
@@ -75,6 +81,7 @@
         margin: 0.5em 0;
       }
     }
+
   </style>
 </head>
 
@@ -84,7 +91,7 @@
       <h2>基本信息</h2>
       <p>黄前胜</p>
       <img src="https://gitee.com/scripthqs/assets/raw/master/img/%E7%99%BB%E8%AE%B0%E7%85%A7.jpg" alt="登记照"
-        width="100px">
+        width="100px" />
 
       <p>
         男 | 23岁 | 前端开发工程师 | 重庆
@@ -106,10 +113,6 @@
         <li>全国计算机二级证书（C语言程序设计）</li>
         <li>全国大学英语四级证书</li>
       </ul>
-      <p>
-
-
-      </p>
     </section>
 
     <section>
@@ -118,59 +121,75 @@
         <li>熟练掌握HTML、CSS、JavaScript</li>
         <li>熟悉ES6，包括let/const/Promise等等语法规范</li>
         <li>熟练掌握静态页面制作技巧，熟悉Web移动端布局和响应式布局</li>
-        <li>熟练掌握Vue全家桶的使用，包括VueCli、VueRouter、Vuex、Vue-element等</li>
-        <li>熟悉前后端分离技术，包括Ajax、跨域、前端路由、Cookie、Session等</li>
+        <li>熟练掌握Vue全家桶的使用，能够在Vue项目使用Element-UI和Vant组件库</li>
+        <li>熟悉前后端分离技术，能够在项目中封装和使用axios来请求后端的API接口</li>
+        <li>熟悉包括Ajax、跨域、前端路由、Cookie、Session</li>
         <li>熟练使用Git分布式版本控制系统</li>
-        <li>了解node.js、MongoDB、Express、axios</li>
-        <li>了解webpack的配置</li>
+        <li>了解webpack的配置和优化</li>
+        <li>了解node.js、MongoDB、Express</li>
       </ul>
     </section>
 
     <section class="project">
       <h2>开源项目</h2>
       <header>
+        <h3> 我的博客
+          <a href="https://github.com/Scripthqs/scripthqs.github.io" target="_blank">源码链接</a>
+          <a href="https://scripthqs.gitee.io" target="_blank">项目预览</a>
+        </h3>
+      </header>
+      <p>
+        使用vuePress搭建的个人博客，其中使用markdown语法记录了<strong>学习的笔记</strong>和个人开源项目的介绍。
+      </p>
+      <header>
         <h3>
           购物街
-          <a href="https://gitee.com/scripthqs/vuemall">源码链接</a>
-          <a href="#">项目预览</a>
+          <a href=" http://scripthqs.gitee.io/vantmall" target="_blank">使用vant重构的版本</a>
+          <a href="https://gitee.com/scripthqs/vuemall" target="_blank">源码链接</a>
+          <a href="http://scripthqs.gitee.io/vuemall" target="_blank">项目预览</a>
         </h3>
       </header>
       <p>
         基于VueCLI、Vue-router、Vuex、VueLazyLoad、BetterScroll(滚动插件)、axios等构建的web移动端商城项目。
       </p>
       <p>
-        功能模块包含首页轮播、商品详情、购物车功能、采用模块化、组件化、工程化的模式开发。开始使用mockjs+axios基本简单的封装，模拟向后台发起请求，后来使用真实的数据的接口接收数据。
+        功能模块包含首页轮播、商品详情、购物车功能、采用模块化、组件化、工程化的模式开发。开始使用mockjs+axios基本简单的封装，模拟向后台发起请求，后来使用真实的数据的接口接收数据。刚开始都是自己使用插槽封装的组件，没有使用现成的组件库，后面使用vant组件库对项目进行了重构。
       </p>
       <header>
         <h3>后台管理系统
-          <a href="https://github.com/Scripthqs/vue-element-admin">源码链接</a>
-          <a href="http://gl.timemeetyou.com">项目预览</a>
+          <a href="https://github.com/Scripthqs/vue-element-admin" target="_blank">源码链接</a>
+          <a href="http://scripthqs.gitee.io/vuecms" target="_blank">项目预览</a>
         </h3>
       </header>
       <p>
-        技术栈：Vue.js、Vue-Router、Vuex、VueCLI、Vue-element、axios、Echarts
+        技术栈：Vue.js、Vue-Router、VueCLI、Vue-element、axios、Echarts
       </p>
       <p>
         业务功能模块包含用户登录、商品管理、角色管理、用户管理、菜单权限管理、订单管理和数据统计的功能，包含各部分前端向数据库的增删改查的请求
       </p>
       <header>
-        <h3> UI-demo
+        <h3> UI组件库
           <a href="#">源码链接</a>
           <a href="#">项目预览</a>
         </h3>
       </header>
       <p>
-        一款基于Vue/webpack/TypeScript的UI框架，
-        vue + vue-element的后台管理系统
-        vue + vue-element的后台管理系统
-        vue + vue-element的后台管理系统
+        一款基于Vue/webpack/的UI框架
       </p>
-
+      <header>
+        <h3> 自定义工具函数库
+          <a href="#">源码链接</a>
+          <a href="#">项目预览</a>
+        </h3>
+      </header>
+      <p>
+        自定义实现包括函数相关、数组相关、对象相关、字符串相关的工具函数，类似流行的工具函数库lodash；还有手写DOM事件监听、ajax请求、事件总线、消息订阅-发布、Promise。提升了对原生JS核心技术的理解和编码能力。
+      </p>
     </section>
 
     <section>
       <h2>个人简介</h2>
-      <p>本人自学前端，学习适应能力强，学习过程中的遇到的各种问题基本都能通过谷歌或者在各个论坛学习独立解决，GitHub中包含我的学习笔记和日常练习的代码，过去半年有上千次提交</p>
+      <p>本人自学前端，学习适应能力强，学习过程中的遇到的各种问题基本都能通过谷歌或者在各个论坛学习独立解决，GitHub中包含我的学习笔记和日常练习的代码，过去半年有600+提交</p>
       <p>GitHub:
         <a href="https://github.com/Scripthqs">https://github.com/Scripthqs</a>
 
