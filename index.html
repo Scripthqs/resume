@@ -9,8 +9,27 @@
   <title>个人简历</title>
   <link rel="icon" href="https://gitee.com/scripthqs/assets/raw/master/img/icon.png">
   <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/common.css">
   <style>
+    * {
+      box-sizing: border-box
+    }
+
+    body {
+      /* border: 10px solid red; */
+      background: #333;
+      margin: 20px 0;
+    }
+
+    article {
+      width: 21cm;
+      /* height: 29.7cm; */
+      background: white;
+      margin: 0 auto;
+
+      overflow: auto;
+      padding: 1em;
+    }
+
     img {
       vertical-align: middle;
     }
@@ -52,6 +71,7 @@
       article {
         width: auto;
         height: auto;
+        overflow: auto;
       }
 
       .info {
@@ -176,6 +196,7 @@
       <p>
         一款基于Vue/webpack/的UI框架，包含了按钮、标签、输入框、布局、弹出层、手风琴等组件
       </p>
+      <!-- <header style="page-break-before: always; margin-top: 50px;"> -->
       <header>
         <h3> 自定义工具函数库
           <a href="#">源码链接</a>
