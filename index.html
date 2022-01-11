@@ -56,7 +56,9 @@
     }
 
     strong {
-      color: red
+      /* color: red */
+      color: #ff8c00;
+
     }
 
     a {
@@ -121,7 +123,7 @@
         width="100px" />
 
       <p>
-        男 | 23岁 | 前端开发工程师 | 重庆
+        男 | 24岁 | 前端开发工程师 | 重庆
       </p>
       <p class="contact_p">
         手机：18325142633 | 微信：18325142633 | 邮箱：1941186772@qq.com
@@ -180,7 +182,22 @@
         基于VueCLI、Vue-router、Vuex、VueLazyLoad、BetterScroll(滚动插件)、axios等构建的web<strong>移动端商城项目</strong>。
       </p>
       <p>
-        功能模块包含首页轮播、商品详情、购物车功能、采用模块化、组件化、工程化的模式开发。开始使用mockjs+axios基本简单的封装，模拟向后台发起请求，后来使用真实的数据的接口接收数据。刚开始都是自己使用插槽封装的组件，没有使用现成的组件库，后面使用vant组件库对项目进行了重构。
+        1.功能模块包含首页轮播、商品详情、商品分类、购物车功能、采用模块化、组件化、工程化的模式开发。
+      </p>
+      <p>
+        2.开始使用mockjs+axios基本简单的封装，模拟向后台发起请求，后面将真实的api接口进行<strong>axios的二次封装</strong>并解决了<strong>跨越</strong>问题。
+      </p>
+      <p>
+        3.使用<strong>Vue-router懒加载</strong>优化路由的跳转，使用<strong>Vuex</strong>对购物车相关数据进行状态管理。
+      </p>
+      <p>
+        4.使用fastclick解决了<strong>移动端点击延迟</strong>的问题，使用BetterScroll<strong>优化了页面的滚动</strong>效果。
+      </p>
+      <p>
+        5.使用VueLazyLoad对项目中图片进行了<strong>懒加载</strong>的性能优化。
+      </p>
+      <p>
+        6.刚开始都是自己使用插槽封装的组件，没有使用现成的组件库，后面使用<strong>vant组件库</strong>对项目进行了<strong>重构</strong>。
       </p>
       <header>
         <h3>后台管理系统
@@ -191,9 +208,14 @@
       <p>
         基于Vue.js、Vue-Router、VueCLI、Vue-element、axios、Echarts等构建的<strong>PC端后台管理系统</strong>。
       </p>
-      <p>
-        业务功能模块包含用户登录、商品管理、角色管理、用户管理、菜单权限管理、订单管理和数据统计的功能，包含各部分前端向数据库的增删改查的请求。使用axios对数据进行了封装。
-      </p>
+      <p>1.业务功能模块包含用户登录、商品管理、角色管理、用户管理、菜单权限管理、订单管理和数据统计的功能。</p>
+      <p>2.使用<strong>element-ui</strong>搭建了ui界面</p>
+      <P>3.对<strong>axios进行二次封装</strong>，监听响应请求拦截，并使用 <strong>nprogress</strong> 显示加载进度条效果</P>
+      <p>4.使用<strong>mixins</strong>对数据进行解耦，让数据更加方便维护</p>
+      <p>5.使用<strong>Echarts图表</strong>，对相关数据进行了<strong>可视化</strong>的展示</p>
+      <p>6.对<strong>webpack</strong>进行优化配置</p>
+      <p>7.通过 externals 加载外部 CDN 资源来加速资源加载</p>
+
       <header>
         <h3> 自定义UI组件库
           <a href="https://github.com/Scripthqs/hqs-ui" target="_blank">源码链接</a>
@@ -201,8 +223,12 @@
         </h3>
       </header>
       <p>
-        一款基于Vue/webpack/的简洁型 UI 库，适合移动端和 PC 端使用。包含了按钮、标签、输入框、布局、弹出层、手风琴等组件，并且使用vuePress进行构建了组件库的文档，提升了本人对组件化开发的能力。
+        一款基于Vue/webpack/的简洁型 UI 组件库，适合移动端和 PC 端使用。包含了按钮、标签、输入框、布局、弹出层、手风琴等组件
       </p>
+      <p>1.主要使用Vue<strong>组件通信和插槽</strong>的相关知识</p>
+      <p>2.使用<strong>webpack</strong>对组件进行<strong>打包处理</strong></p>
+      <p>3.使用<strong>vuePress</strong>进行构建了组件库的文档</p>
+      <p></p>
       <!-- <header style="page-break-before: always; margin-top: 50px;"> -->
       <header>
         <h3> 自定义工具函数库
@@ -211,8 +237,12 @@
         </h3>
       </header>
       <p>
-        自定义实现了包括函数相关、数组相关、对象相关、字符串相关的工具函数，类似流行的工具函数库lodash；还有手写DOM事件监听、ajax请求、事件总线、消息订阅-发布、Promise。使用vuePress进行构建了组件库的文档，提升本人了对原生JS核心技术的理解和编码能力。
+        自定义实现了包括函数相关、数组相关、对象相关、字符串相关的工具函数，类似流行的工具函数库lodash；还有手写DOM事件监听、ajax请求、事件总线、消息订阅-发布、Promise。
       </p>
+      <p>1.使用<strong>原生js</strong>对日常的<strong>工具函数</strong>进行了手写</p>
+      <p>2.使用<strong>webpack</strong>对组件进行<strong>打包处理</strong></p>
+      <p>3.使用<strong>vuePress</strong>进行构建了组件库的文档</p>
+
     </section>
 
     <section>
